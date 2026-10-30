@@ -1,0 +1,35 @@
+Sample Output:
+
+================================
+       LOG FILE ANALYZER
+================================
+Enter log file name (example: access.log): access.log
+
+========== SERVER LOG ANALYSIS REPORT ==========
+
+Total Requests: 10
+Total Error Responses: 3
+Malformed Log Lines: 0
+
+---------- HTTP STATUS CODES ----------
+Status 200: 7 requests
+Status 403: 1 requests
+Status 404: 1 requests
+Status 500: 1 requests
+
+---------- TOP IP ADDRESSES ----------
+192.168.1.10 : 3 requests
+192.168.1.11 : 3 requests
+192.168.1.12 : 2 requests
+192.168.1.13 : 2 requests
+
+---------- MOST REQUESTED ENDPOINTS ----------
+/home : 4 requests
+/about : 2 requests
+/products : 2 requests
+/login : 1 requests
+/contact : 1 requests
+
+===============================================
+
+Summary report saved as summary_report.txt
